@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+// factorial using iteration.
+class factorial_iteration{
+	public int num;
+	public int fact = 1;
+	int factorial(int num){
+		for(int i=1;i<=num;i++){
+           fact = fact *i;
+           i++;
+		}
+		return fact;
+	}
+
+
+}
+class iteration{
+	public static void main(String args[]){
+		factorial_iteration f = new factorial_iteration();
+		f.num = Integer.parseInt(args[0]);
+		System.out.println("Factorial is : " + f.factorial(f.num));
+	}
+}
