@@ -1,0 +1,11 @@
+press windows+r
+type cmd in search box of run.
+type dir to list the directory
+type cd directory_name to change or catch the directory
+find the file
+type javac filename.java
+after successfully compilation 
+type java filename [provide input]
+example
+javac Demonstration_12.java
+java Demonstration_12 10
