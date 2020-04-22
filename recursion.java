@@ -1,5 +1,5 @@
 
-save this file as Demonstration_12
+// provide input in cmd
 
 import java.util.*;
 import java.lang.*;
@@ -20,7 +20,7 @@ class factorial_recursion{
    }
 }
 
-class Demonstration_12{
+class recursion{
 	public static void main(String args[]){
 		factorial_recursion f = new factorial_recursion();
 		f.n = Integer.parseInt(args[0]);
@@ -28,3 +28,4 @@ class Demonstration_12{
 
 	}
 }
+
