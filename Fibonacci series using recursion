@@ -1,3 +1,6 @@
+// Rename file as Demonstration_15.java
+// provide input at cmd in runtime
+
 import java.lang.*;
 import java.util.*;
 // fibonacci series using recursion
