@@ -1,3 +1,5 @@
+Rename as Demonstration_13.java
+
 import java.util.*;
 import java.lang.*;
 // factorial using iteration.
@@ -14,7 +16,7 @@ class factorial_iteration{
 
 
 }
-class iteration{
+class Demonstration_13{
 	public static void main(String args[]){
 		factorial_iteration f = new factorial_iteration();
 		f.num = Integer.parseInt(args[0]);
